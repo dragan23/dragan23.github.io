@@ -112,6 +112,12 @@ p.main-p {
   }
 }
 
+@media (max-width: 28em) {
+  h1.cover-heading {
+    font-size: 3rem;
+  }
+}
+
 
 /*
  * Cover
