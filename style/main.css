@@ -1,0 +1,145 @@
+/*
+ * Globals
+ */
+
+ /* font-family: 'Emblema One', cursive;
+    font-family: 'Source Sans Pro', sans-serif; */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background: no-repeat top center fixed url("../images/background.jpg");
+  background-size: cover;
+}
+
+
+h1 {
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  font-family: 'Emblema One', cursive
+}
+
+h1:after {
+  content: "";
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 15px;
+  outline: 3px solid #fff;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+}
+
+p.main-p {
+  letter-spacing: 0.45em;
+  margin-top: 40px;
+  text-shadow: 0 .07rem .1rem rgba(0, 0, 0, .7);
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+@media (max-width: 48em) {
+  h1.cover-heading {
+    font-size: 4rem;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+
+
+/*
+ * Modal
+ */
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card-block {
+  padding: 5px 2px;
+}
+
+.card-img-top {
+  margin-bottom: 10px;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
